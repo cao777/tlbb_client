@@ -1,0 +1,296 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IL - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19E.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O1 /I "../../projects/msvc/extlibs/" /I "../include" /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IL_EXPORTS" /Fp"../src/obj/IL.pch" /YX /Fo"../src/obj/" /Fd"../src/obj/" /FD /c 
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_alloc.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_bits.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_bmp.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_convbuff.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_convert.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_cut.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_dcx.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_dds-save.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_dds.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_devil.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_doom.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_endian.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_error.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_fastconv.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_files.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_gif.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_hdr.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_header.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_icon.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_internal.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_io.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_jpeg.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_lif.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_main.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_manip.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_mdl.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_mng.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_neuquant.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pal.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pcd.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pcx.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pic.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pix.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_png.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pnm.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_profiles.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_psd.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_psp.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_pxr.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_quantizer.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_raw.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_rawdata.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_register.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_rle.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_sgi.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_stack.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_states.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_targa.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_tiff.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_utility.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_wal.c"
+"E:\projekte\devil\tmp\DevIL\src-IL\src\il_xpm.c"
+]
+Creating command line "cl.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19E.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19F.tmp" mit Inhalten
+[
+libtiff.lib libjpeg.lib libpng.lib user32.lib gdi32.lib comdlg32.lib shell32.lib /nologo /dll /incremental:no /pdb:"../../lib/DevIL.pdb" /machine:I386 /def:".\il.def" /out:"../../lib/DevIL.dll" /implib:"../../lib/DevIL.lib" /libpath:"../../projects/msvc/extlibs" /OPT:NOWIN98 
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_alloc.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_bits.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_bmp.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_convbuff.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_convert.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_cut.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_dcx.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_dds-save.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_dds.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_devil.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_doom.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_endian.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_error.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_fastconv.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_files.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_gif.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_hdr.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_header.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_icon.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_internal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_io.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_jpeg.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_lif.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_main.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_manip.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_mdl.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_mng.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_neuquant.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pcd.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pcx.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pic.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pix.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_png.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pnm.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_profiles.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_psd.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_psp.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_pxr.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_quantizer.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_raw.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_rawdata.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_register.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_rle.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_sgi.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_stack.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_states.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_targa.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_tiff.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_utility.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_wal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\il_xpm.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\IL.res"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19F.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+il_alloc.c
+il_bits.c
+il_bmp.c
+il_convbuff.c
+il_convert.c
+il_cut.c
+il_dcx.c
+il_dds-save.c
+il_dds.c
+il_devil.c
+il_doom.c
+il_endian.c
+il_error.c
+il_fastconv.c
+il_files.c
+il_gif.c
+il_hdr.c
+il_header.c
+il_icon.c
+il_internal.c
+il_io.c
+il_jpeg.c
+../../projects/msvc/extlibs/jconfig.h(11) : warning C4005: 'HAVE_STDLIB_H' : Makro-Neudefinition
+        ../../include\IL/config.h(61) : Siehe vorherige Definition von 'HAVE_STDLIB_H'
+../../projects/msvc/extlibs/jmorecfg.h(161) : warning C4142: Neudefinition eines Typs ohne Auswirkungen
+../../projects/msvc/extlibs/jmorecfg.h(215) : warning C4005: 'FAR' : Makro-Neudefinition
+        C:\PROGRAMME\MICROSOFT SDK\INCLUDE\windef.h(135) : Siehe vorherige Definition von 'FAR'
+il_lif.c
+il_main.c
+il_manip.c
+il_mdl.c
+il_mng.c
+il_neuquant.c
+il_pal.c
+il_pcd.c
+il_pcx.c
+il_pic.c
+il_pix.c
+il_png.c
+il_pnm.c
+il_profiles.c
+il_psd.c
+il_psp.c
+il_pxr.c
+il_quantizer.c
+il_raw.c
+il_rawdata.c
+il_register.c
+il_rle.c
+il_sgi.c
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_sgi.c(710) : warning C4018: '<' : Konflikt zwischen signed und unsigned
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_sgi.c(711) : warning C4018: '<' : Konflikt zwischen signed und unsigned
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_sgi.c(713) : warning C4018: '<' : Konflikt zwischen signed und unsigned
+il_stack.c
+il_states.c
+il_targa.c
+il_tiff.c
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_tiff.c(833) : warning C4101: 'TiffFile' : Unreferenzierte lokale Variable
+il_utility.c
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_tiff.c(867) : Warnung C4716: 'ilSaveTiffF' : Muß einen Wert zurückgeben
+E:\projekte\devil\tmp\DevIL\src-IL\src\il_tiff.c(879) : Warnung C4716: 'ilSaveTiffL' : Muß einen Wert zurückgeben
+il_wal.c
+il_xpm.c
+Linker-Vorgang läuft...
+   Bibliothek ../../lib/DevIL.lib und Objekt ../../lib/DevIL.exp wird erstellt
+LINK : warning LNK4098: Standardbibliothek "LIBC" steht in Konflikt mit anderen Bibliotheken; /NODEFAULT:Bibliothek verwenden
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A3.bat" mit Inhalten
+[
+@echo off
+copy ..\..\lib\DevIL.dll "C:\path\DevIL.dll"
+]
+Erstellen der Befehlzeile "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A3.bat"
+
+        1 Datei(en) kopiert.
+<h3>
+--------------------Konfiguration: ILU - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A4.tmp" mit Inhalten
+[
+kernel32.lib winspool.lib advapi32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib user32.lib gdi32.lib comdlg32.lib shell32.lib devil.lib /nologo /dll /incremental:no /pdb:"../../lib/ILU.pdb" /machine:I386 /def:".\ilu.def" /out:"../../lib/ILU.dll" /implib:"../../lib/ILU.lib" /libpath:"../../lib" 
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_error.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_filter.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_filter_rcg.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_internal.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_main.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_manip.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_mipmap.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_noise.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_region.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_rotate.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_scale.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_scale2d.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_scale3d.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_states.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ilu_utilities.obj"
+"\projekte\devil\tmp\DevIL\src-ILU\src\obj\ILU.res"
+"\projekte\devil\tmp\DevIL\lib\DevIL.lib"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A4.tmp"
+<h3>Ausgabefenster</h3>
+Linker-Vorgang läuft...
+   Bibliothek ../../lib/ILU.lib und Objekt ../../lib/ILU.exp wird erstellt
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A8.bat" mit Inhalten
+[
+@echo off
+copy ..\..\lib\ilu.dll "C:\path\ilu.dll"
+]
+Erstellen der Befehlzeile "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A8.bat"
+
+        1 Datei(en) kopiert.
+<h3>
+--------------------Konfiguration: ILUT - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A9.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O1 /I "../include" /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ILUT_EXPORTS" /D "IL_STATIC_LIB" /Fp"../src/obj/ILUT.pch" /YX /Fo"../src/obj/" /Fd"../src/obj/" /FD /c 
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_directx.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_internal.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_main.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_opengl.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_sdlsurface.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_states.c"
+"E:\projekte\devil\tmp\DevIL\src-ILUT\src\ilut_win32.c"
+]
+Creating command line "cl.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1A9.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1AA.tmp" mit Inhalten
+[
+devil.lib ilu.lib kernel32.lib winspool.lib advapi32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib user32.lib gdi32.lib comdlg32.lib shell32.lib /nologo /dll /incremental:no /pdb:"../../lib/ILUT.pdb" /machine:I386 /def:".\ilut.def" /out:"../../lib/ILUT.dll" /implib:"../../lib/ILUT.lib" /libpath:"../../lib" /delayload:d3d8.dll /delayload:sdl.dll 
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_directx.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_internal.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_main.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_opengl.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_sdlsurface.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_states.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ilut_win32.obj"
+"\projekte\devil\tmp\DevIL\src-ILUT\src\obj\ILUT.res"
+"\projekte\devil\tmp\DevIL\lib\ILU.lib"
+"\projekte\devil\tmp\DevIL\lib\DevIL.lib"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1AA.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+ilut_directx.c
+ilut_internal.c
+ilut_main.c
+ilut_opengl.c
+ilut_sdlsurface.c
+ilut_states.c
+ilut_win32.c
+Linker-Vorgang läuft...
+   Bibliothek ../../lib/ILUT.lib und Objekt ../../lib/ILUT.exp wird erstellt
+LINK : warning LNK4199: /DELAYLOAD:d3d8.dll wird ignoriert; keine Importe von d3d8.dll gefunden
+LINK : warning LNK4199: /DELAYLOAD:sdl.dll wird ignoriert; keine Importe von sdl.dll gefunden
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1AE.bat" mit Inhalten
+[
+@echo off
+copy ..\..\lib\ilut.dll "C:\path\ilut.dll"
+]
+Erstellen der Befehlzeile "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP1AE.bat"
+
+        1 Datei(en) kopiert.
+
+
+
+<h3>Ergebnisse</h3>
+ILUT.dll - 0 Fehler, 10 Warnung(en)
+</pre>
+</body>
+</html>

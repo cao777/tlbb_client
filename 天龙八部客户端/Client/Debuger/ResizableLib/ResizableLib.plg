@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ResizableLib - Win32 Release Static--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP219.tmp" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release_Static/ResizableLib.pch" /Yu"stdafx.h" /Fo"Release_Static/" /Fd"Release_Static/" /FD /c 
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableDialog.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableFormView.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableFrame.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableGrip.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableLayout.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableMDIChild.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableMDIFrame.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableMinMax.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizablePage.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableSheet.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableState.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP219.tmp" 
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21A.tmp" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release_Static/" /Fd"Release_Static/" /FD /c 
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizablePageEx.cpp"
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\ResizableSheetEx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21A.tmp" 
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21B.tmp" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release_Static/ResizableLib.pch" /Yc"stdafx.h" /Fo"Release_Static/" /Fd"Release_Static/" /FD /c 
+"C:\Documents and Settings\xp\桌面\ResizableLib_1_3\ResizableLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21B.tmp" 
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21C.tmp" with contents
+[
+/nologo /out:"Release_Static\ResizableLib.lib" 
+".\Release_Static\ResizableDialog.obj"
+".\Release_Static\ResizableFormView.obj"
+".\Release_Static\ResizableFrame.obj"
+".\Release_Static\ResizableGrip.obj"
+".\Release_Static\ResizableLayout.obj"
+".\Release_Static\ResizableMDIChild.obj"
+".\Release_Static\ResizableMDIFrame.obj"
+".\Release_Static\ResizableMinMax.obj"
+".\Release_Static\ResizablePage.obj"
+".\Release_Static\ResizablePageEx.obj"
+".\Release_Static\ResizableSheet.obj"
+".\Release_Static\ResizableSheetEx.obj"
+".\Release_Static\ResizableState.obj"
+".\Release_Static\StdAfx.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP21C.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ResizableDialog.cpp
+ResizableFormView.cpp
+ResizableFrame.cpp
+ResizableGrip.cpp
+ResizableLayout.cpp
+ResizableMDIChild.cpp
+ResizableMDIFrame.cpp
+ResizableMinMax.cpp
+ResizablePage.cpp
+ResizableSheet.cpp
+ResizableState.cpp
+Generating Code...
+Compiling...
+ResizablePageEx.cpp
+ResizableSheetEx.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

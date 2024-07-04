@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IL - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19D.tmp" mit Inhalten
+[
+libtiff.lib libjpeg.lib libpng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../../lib/debug/devil.pdb" /debug /machine:I386 /def:".\il.def" /out:"C:\path\devil.dll" /implib:"../../lib/debug/devil.lib" /pdbtype:sept /libpath:"../../projects/msvc/extlibs" 
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_alloc.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_bits.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_bmp.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_convbuff.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_convert.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_cut.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_dcx.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_dds-save.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_dds.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_devil.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_doom.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_endian.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_error.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_fastconv.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_files.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_gif.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_hdr.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_header.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_icon.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_internal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_io.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_jpeg.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_lif.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_main.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_manip.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_mdl.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_mng.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_neuquant.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pcd.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pcx.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pic.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pix.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_png.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pnm.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_profiles.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_psd.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_psp.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_pxr.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_quantizer.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_raw.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_rawdata.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_register.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_rle.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_sgi.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_stack.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_states.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_targa.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_tiff.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_utility.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_wal.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\il_xpm.obj"
+"\projekte\devil\tmp\DevIL\src-IL\src\obj\debug\IL.res"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Nico\LOKALE~1\Temp\RSP19D.tmp"
+<h3>Ausgabefenster</h3>
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+devil.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

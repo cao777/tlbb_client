@@ -1,0 +1,2118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{e28127a9-ea59-42be-8ad9-3448b23e2d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Path">
+      <UniqueIdentifier>{b2674398-f6e2-4d05-8e51-9275c41493d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Building_Collision_Mng">
+      <UniqueIdentifier>{f84587e4-d2c9-4368-a4c8-c93b358cdbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{973b339e-6069-4c13-a0d1-d7f3b25b9e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character">
+      <UniqueIdentifier>{c9a5271c-b6cd-4382-8ffb-a0621f7e5c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\AI">
+      <UniqueIdentifier>{05e798ed-7ca3-459a-a423-1cf070c062c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Surface">
+      <UniqueIdentifier>{9a080f0e-69d4-4962-be04-2622062c63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ProjTex">
+      <UniqueIdentifier>{4e764628-ad8b-4c4f-a6d4-013aebdce03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{d92f9c3a-4f94-4b41-8e52-78e08923d3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\TripperObj">
+      <UniqueIdentifier>{1732aaa9-f2ad-41b6-93a2-b61d348e169a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{8cc941ae-592a-493d-bbb1-1c512dd35d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{9cffcde7-e721-4f75-9b7d-a8d46a561edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cursor">
+      <UniqueIdentifier>{96dad4bd-01c6-4312-bb02-491b113829c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataPool">
+      <UniqueIdentifier>{595afbba-2512-42ad-8a6a-76e65b293ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataPool\_new">
+      <UniqueIdentifier>{feeaafdd-3153-48e9-8640-298de6c07768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{20b1bd7d-5b0e-49cf-91b3-71782038c7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{f60e22b4-be30-495c-91db-cb72780e7e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{e0306e6b-5f39-49a0-a7f5-a43d1bf4f9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{1dad0424-8907-4d11-bf34-fa00534b6ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler">
+      <UniqueIdentifier>{383ea9ec-adb3-4344-bbf3-5c4170f8aa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...">
+      <UniqueIdentifier>{af48381a-6723-42b4-a411-6a1fc7172ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\0. System">
+      <UniqueIdentifier>{83082f3b-d0bd-4a65-bcb5-7e57e3c83eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\1. Scene">
+      <UniqueIdentifier>{28c0ddfc-fa4a-46a8-b4c4-820d1d879d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\2. Environment">
+      <UniqueIdentifier>{ee84a4c8-6559-4863-bd6e-60c298dc4282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\3. Character">
+      <UniqueIdentifier>{8caee984-93ec-449c-90d2-1b5ed4348f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\3. Character\__Discard">
+      <UniqueIdentifier>{e2318a24-17d7-40f8-97a3-a9c23548d2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\5. Move">
+      <UniqueIdentifier>{c0d127e0-c64d-4cb5-a3c3-94b18c7a0c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\6. Skill">
+      <UniqueIdentifier>{2d757aef-ba8b-479b-8961-5fca11fcbfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\6. Skill\__Discard">
+      <UniqueIdentifier>{11f18150-9614-41c0-b535-b0b1a2b51bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\7. Item">
+      <UniqueIdentifier>{12e126a5-e7f7-441e-af95-8001b0809515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\4. MySelf">
+      <UniqueIdentifier>{74e6a234-c79b-4753-88f0-85c6dafb2f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\8. Action">
+      <UniqueIdentifier>{6191b98c-9f5d-4ddc-8193-35cd065cda95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\10. Talk">
+      <UniqueIdentifier>{4347349b-a8a9-49b1-b107-f25745b49c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\11. Mail">
+      <UniqueIdentifier>{17570eb9-5baa-4d70-bfe7-cd0aa6e223d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\9. Team">
+      <UniqueIdentifier>{4856981c-1712-4eec-a5ac-69a2490b590c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\12. Quest">
+      <UniqueIdentifier>{187ac413-ccab-413f-874f-ceb39c8f80c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\13. Merchandise">
+      <UniqueIdentifier>{0d4d8c23-f673-4d2d-863f-c51f31ea0a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\14. Menpai&amp;Xinfa">
+      <UniqueIdentifier>{a62d44b1-baba-470d-9097-2e859710baa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\15. Bank">
+      <UniqueIdentifier>{00fa49d9-3a64-4786-a9ee-df2968190832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\16. Exchange">
+      <UniqueIdentifier>{368cfb5c-e320-4ed3-a0ff-c98ef29a024d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\16. Exchange\StepI">
+      <UniqueIdentifier>{bad600d1-23e8-4f1f-8be8-31600f2cdeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\16. Exchange\StepII">
+      <UniqueIdentifier>{fb3f7dee-b96d-4449-9d82-930f16f25e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\16. Exchange\StepIII">
+      <UniqueIdentifier>{d9df9a14-7b95-4e8d-bcbf-7ac5721cbb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\17. Pet">
+      <UniqueIdentifier>{7fa26b88-1b98-419c-af2a-13ae7d09e783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\18. Stall">
+      <UniqueIdentifier>{46361bc1-6224-49a5-90fc-db8a11c922da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\19. Guild">
+      <UniqueIdentifier>{931d6abb-745c-4515-bd27-95627e570982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\20. Relation">
+      <UniqueIdentifier>{54ff050d-1a41-40e4-93e0-b54d9acb6126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\21. PlayerShop">
+      <UniqueIdentifier>{8c841989-9943-4f81-b118-bc7a34e0c0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CG...\23. City">
+      <UniqueIdentifier>{052078b6-8659-43a3-9c94-6f7977e08280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...">
+      <UniqueIdentifier>{a0c534d4-53b6-4592-85eb-99ca6f9fe314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\0. System">
+      <UniqueIdentifier>{0c74d08d-3ee5-449f-a39e-1136bf6c8e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\1. Scene">
+      <UniqueIdentifier>{20dd6716-8e27-4a19-88e8-572936f79239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\2. Environment">
+      <UniqueIdentifier>{9d3648f2-8af8-4f3a-8fe5-bd85f75a33cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\2. Environment\__Discard">
+      <UniqueIdentifier>{d8d5f5fc-fca8-4968-8a75-086bba7097f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\3. Character">
+      <UniqueIdentifier>{18a9c12c-e000-4645-9bf8-7e9a47afacc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\3. Character\__Discard">
+      <UniqueIdentifier>{e376d89e-0ca1-40ff-b28c-b15200ebd898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\5. Move">
+      <UniqueIdentifier>{eb1c13c7-1ea9-452e-8e34-dff919b79834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\5. Move\__Discard">
+      <UniqueIdentifier>{f75baf8c-9e74-4871-9981-215307b43478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\7. Item">
+      <UniqueIdentifier>{28681dac-6054-4cdb-92dd-4b8b40af9226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\4. MySelf">
+      <UniqueIdentifier>{39577740-a90e-4c96-beaa-d736da22b121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\4. MySelf\__Discard">
+      <UniqueIdentifier>{16a14dbc-b0d3-4536-8844-bd7ddb721a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\6. Skill">
+      <UniqueIdentifier>{eb9b96b0-9cdb-470e-a6c0-934a6046dcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\6. Skill\__Discard">
+      <UniqueIdentifier>{297d3bc1-2d78-48c4-8043-f944bcb1edf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\8. Action">
+      <UniqueIdentifier>{90f5b550-848f-47e9-826c-bc8d6382251b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\9. Team">
+      <UniqueIdentifier>{75a6c16b-4c88-4f2a-8e80-124ad8f34b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\10. Talk">
+      <UniqueIdentifier>{585f74ed-03bb-4cc5-9e6f-a9b1ab24e0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\11. Mail">
+      <UniqueIdentifier>{248fd14c-6451-4714-8bb5-345d4d0fb8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\12. Quest">
+      <UniqueIdentifier>{898e434e-3cfe-44c4-a859-acd13f990f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\13. Merchandise">
+      <UniqueIdentifier>{c815ce14-21bd-4c8a-b42b-fb92413ec3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\14. Menpai&amp;XInfa">
+      <UniqueIdentifier>{6cd232e8-bcce-48c1-99ab-f19cffee78f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\15. Bank">
+      <UniqueIdentifier>{b356750e-5590-45c9-b09c-1ac310095cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\16. Exchange">
+      <UniqueIdentifier>{cd50201e-5904-402e-8c3c-5f4937764ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\16. Exchange\StepI">
+      <UniqueIdentifier>{a06cb92b-20a8-48ea-ba81-a25f75f1028d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\16. Exchange\StepII">
+      <UniqueIdentifier>{174c60b5-65d1-4e06-89d2-045c364215b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\16. Exchange\StepIII">
+      <UniqueIdentifier>{39e15370-27f9-4497-a21a-ff391426c051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\17. Pet">
+      <UniqueIdentifier>{ac019d98-30b4-4b94-9bf8-262b7337fccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\18. Stall">
+      <UniqueIdentifier>{f06b84bc-1253-4efc-a51f-4428479d95ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\19. Guild">
+      <UniqueIdentifier>{2a60de31-37ad-4e57-ae44-7763ee3c4e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\20. Relation">
+      <UniqueIdentifier>{2767b82f-0afb-44d8-b871-9a9fe7aa85ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\Obj">
+      <UniqueIdentifier>{363a535d-132b-4c9f-b650-8bd2594e2603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\21. PlayerShop">
+      <UniqueIdentifier>{e3182bca-c9b4-4e76-b79d-2f22bca4c5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\GC...\23. City">
+      <UniqueIdentifier>{d3819d2e-ace1-497f-b832-78fdc4eda480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\LC...">
+      <UniqueIdentifier>{fef794f4-c4ec-44d2-8bd3-94c51c45fd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler\CL...">
+      <UniqueIdentifier>{16423080-8fc8-46cb-be1e-9c895d10830b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FakeObject">
+      <UniqueIdentifier>{7c748a13-656f-4c38-a687-bdb4d5a978b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{ca93c601-3b20-4d8c-b234-1441bb769b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{29265311-a5fc-4f94-98e2-be7926ce84fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure">
+      <UniqueIdentifier>{e35d5b0c-2531-4ebd-84ac-25b36538e3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\0. Login">
+      <UniqueIdentifier>{6ba87fad-c3bf-4fa3-8930-104210c8ac58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\1. Character Select">
+      <UniqueIdentifier>{874ce9aa-7bef-41f8-be05-600fb470dac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\2. Character Create">
+      <UniqueIdentifier>{a28848cd-a6d5-4b09-8ff3-8a25f7349344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\3. Enter">
+      <UniqueIdentifier>{9ccd66d2-5915-4894-9b54-97f76ec31201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\4. Main">
+      <UniqueIdentifier>{2bd8e144-1f68-4cf4-9a73-82699a421dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure\5. changer server">
+      <UniqueIdentifier>{d440e0a7-f6ef-49fc-afda-c83941b31e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{cd811a3f-6440-49ef-bb6f-0cc8acf107be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variable">
+      <UniqueIdentifier>{b998fc36-d081-494e-bf8d-d104c3c15b5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WXClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Scene.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\WorldManager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Zone.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Path.cpp">
+      <Filter>World\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Region.cpp">
+      <Filter>World\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="World\BuildingCollisionMng.cpp">
+      <Filter>World\Building_Collision_Mng</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ActionSetMgr.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BulletDataMgr.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GMObjectLoadQueue.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj_Building.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj_Dynamic.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj_Map.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj_Phy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj_Static.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectCommand.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectDef.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\CharacterStruct.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Obj_Character.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Obj_Character_Logic.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Obj_PlayerMySelf.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Obj_PlayerNPC.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Obj_PlayerOther.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Ai\GMAI_Base.cpp">
+      <Filter>Object\Character\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Ai\GMAI_MySelf.cpp">
+      <Filter>Object\Character\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Surface\Obj_Bullet.cpp">
+      <Filter>Object\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Surface\Obj_Effect.cpp">
+      <Filter>Object\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Surface\Obj_SkillObj.cpp">
+      <Filter>Object\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Surface\Obj_Special.cpp">
+      <Filter>Object\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Surface\Obj_Surface.cpp">
+      <Filter>Object\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ProjTex\Obj_ProjTex.cpp">
+      <Filter>Object\ProjTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Obj_Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Obj_Item_Equip.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Obj_Item_Gem.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Obj_Item_Medicine.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Obj_Item_StoreMap.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TripperObj\GMTripperObj.cpp">
+      <Filter>Object\TripperObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TripperObj\GMTripperObj_ItemBox.cpp">
+      <Filter>Object\TripperObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TripperObj\GMTripperObj_Platform.cpp">
+      <Filter>Object\TripperObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TripperObj\GMTripperObj_Resource.cpp">
+      <Filter>Object\TripperObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TripperObj\GMTripperObj_Transport.cpp">
+      <Filter>Object\TripperObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GMInputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbc\GMDataBase.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor\CursorMng.cpp">
+      <Filter>Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\DetailAttrib_Base.cpp">
+      <Filter>DataPool</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\DetailAttrib_Player.cpp">
+      <Filter>DataPool</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMUIDataPool.cpp">
+      <Filter>DataPool</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\TeamOrGroup.cpp">
+      <Filter>DataPool</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDataPool.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDP_CharacterData.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDP_Struct_Mail.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDP_Struct_Quest.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDP_Struct_Relation.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool\GMDP_Struct_Skill.cpp">
+      <Filter>DataPool\_new</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\GMScriptSystm.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_ChatMood.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_Item.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_LifeAbility.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_MouseCmd.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_PetSkill.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_Skill.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\GMActionSystem_XinFa.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_AbilityTeacher.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Bank.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Character.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_DataPool.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Exchange.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Friend.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameinterface_Script_GameProduceLogin.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_LifeAbility.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_NpcShop.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Package.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_Pet.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_PlayerMySelf.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_StallBbs.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_StallBuy.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_StallSale.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMGameInterface_Script_TargetPet.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_Guild.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_MissionReply.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_PetInviteFriend.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_PlayerShop.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_SystemSetup.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_Talk.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GMInterface_Script_Tooltip.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGSetMoodToHeadHandler.cpp">
+      <Filter>Network\Handler\CG...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTestHandler.cpp">
+      <Filter>Network\Handler\CG...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCommandHandler.cpp">
+      <Filter>Network\Handler\CG...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGConnectHandler.cpp">
+      <Filter>Network\Handler\CG...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExecuteScriptHandler.cpp">
+      <Filter>Network\Handler\CG...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGHeartBeatHandler.cpp">
+      <Filter>Network\Handler\CG...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMinorPasswordHandler.cpp">
+      <Filter>Network\Handler\CG...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskChangeSceneHandler.cpp">
+      <Filter>Network\Handler\CG...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGEnterSceneHandler.cpp">
+      <Filter>Network\Handler\CG...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGLeaveSceneHandler.cpp">
+      <Filter>Network\Handler\CG...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGEnvRequestHandler.cpp">
+      <Filter>Network\Handler\CG...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGApplyPrivateInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskPrivateInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharAllTitlesHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharAskBaseAttribHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharAskEquipmentHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharDefaultEventHander.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharSitHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharStopLogicHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharUpdateCurTitleHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGLockTargetHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGOtherEquipHandler.cpp">
+      <Filter>Network\Handler\CG...\3. Character\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharIdleHandler.cpp">
+      <Filter>Network\Handler\CG...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharJumpHandler.cpp">
+      <Filter>Network\Handler\CG...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharMoveHandler.cpp">
+      <Filter>Network\Handler\CG...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharPositionWarpHandler.cpp">
+      <Filter>Network\Handler\CG...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCharUseSkillHandler.cpp">
+      <Filter>Network\Handler\CG...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGUseAbilityHandler.cpp">
+      <Filter>Network\Handler\CG...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAttackHandler.cpp">
+      <Filter>Network\Handler\CG...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGSkillHandler.cpp">
+      <Filter>Network\Handler\CG...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskItemInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskLockObjHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGDiscardEquipHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGDiscardItemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGGemCompoundHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGItemSynchHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGOpenItemBoxHander.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPackage_SwipItemHandle.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPackUpPacketHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPickBoxItemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGRemoveGemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGSplitItemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGUnEquipHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGUseEquipHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGUseGemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGUseItemHandler.cpp">
+      <Filter>Network\Handler\CG...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskDetailAbilityInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskDetailAttribHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskDetailListHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskDetailSkillListHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskDetaiXinFaListHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskMyBagListHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGEventRequestHander.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerCallOfResultHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerDieResultHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGReqLevelUpHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGReqManualAttrHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGReqResetAttrHandler.cpp">
+      <Filter>Network\Handler\CG...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGDispelBuffReqHandler.cpp">
+      <Filter>Network\Handler\CG...\8. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGDoEventHandler.cpp">
+      <Filter>Network\Handler\CG...\8. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGChannelCreateHandler.cpp">
+      <Filter>Network\Handler\CG...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGChannelDismissHandler.cpp">
+      <Filter>Network\Handler\CG...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGChannelInviteHandler.cpp">
+      <Filter>Network\Handler\CG...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGChannelKickHandler.cpp">
+      <Filter>Network\Handler\CG...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGChatHandler.cpp">
+      <Filter>Network\Handler\CG...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskMailHandler.cpp">
+      <Filter>Network\Handler\CG...\11. Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMailHandler.cpp">
+      <Filter>Network\Handler\CG...\11. Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskTeamFollowHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskTeamInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskTeamMemberInfoHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGReturnTeamFollowHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStopTeamFollowHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamAppointHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamDismissHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamInviteHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamKickHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamLeaderRetInviteHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamLeaveHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamRetApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGTeamRetInviteHandler.cpp">
+      <Filter>Network\Handler\CG...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskMissionDescHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskMissionListHandler.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionAbandonHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionAcceptHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionCheckHandler.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionContinueHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionRefuseHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGMissionSubmitHander.cpp">
+      <Filter>Network\Handler\CG...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGShopBuyHandler.cpp">
+      <Filter>Network\Handler\CG...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGShopCloseHandler.cpp">
+      <Filter>Network\Handler\CG...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGShopRepairHandler.cpp">
+      <Filter>Network\Handler\CG...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGShopSellHandler.cpp">
+      <Filter>Network\Handler\CG...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskJoinMenpaiHandler.cpp">
+      <Filter>Network\Handler\CG...\14. Menpai&amp;Xinfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskLeanAbilityHandler.cpp">
+      <Filter>Network\Handler\CG...\14. Menpai&amp;Xinfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskStudyXinfaHandler.cpp">
+      <Filter>Network\Handler\CG...\14. Menpai&amp;Xinfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankAcquireListHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankAddItemHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankCloseHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankMoneyHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankRemoveItemHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBankSwapItemHandler.cpp">
+      <Filter>Network\Handler\CG...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeCancelHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeSynchLockHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeApplyIHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange\StepI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeReplyIHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange\StepI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeSynchItemIIHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange\StepII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeSynchMoneyIIHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange\StepII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGExchangeOkIIIHandler.cpp">
+      <Filter>Network\Handler\CG...\16. Exchange\StepIII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGIssuePetPlacardHandler.cpp">
+      <Filter>Network\Handler\CG...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGManipulatePetHandler.cpp">
+      <Filter>Network\Handler\CG...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGSetPetAttribHandler.cpp">
+      <Filter>Network\Handler\CG...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBBSApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGBBSSychMessagesHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallAddItemHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallBuyHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallCloseHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallDefaultPageHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallEstablishHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallItemPriceHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallOpenHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallRemoveItemHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGStallShopNameHandler.cpp">
+      <Filter>Network\Handler\CG...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGGuildApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGGuildHandler.cpp">
+      <Filter>Network\Handler\CG...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGGuildJoinHandler.cpp">
+      <Filter>Network\Handler\CG...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGRelationHandler.cpp">
+      <Filter>Network\Handler\CG...\20. Relation</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopAcquireItemListHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopAcquireShopListHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopApplyHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopAskForRecordHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopBuyItemHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopBuyShopHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopDescHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopEstablishHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopFavoriteHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopMoneyHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopNameHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopOnSaleHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopOpenStallHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopPartnerHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopSaleOutHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopSizeHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGPlayerShopTypeHandler.cpp">
+      <Filter>Network\Handler\CG...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGCityAskAttrHandler.cpp">
+      <Filter>Network\Handler\CG...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTestHandler.cpp">
+      <Filter>Network\Handler\GC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCWorldTimeHandler.cpp">
+      <Filter>Network\Handler\GC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGAskSettingHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CGModifySettingHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCConnectHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMinorPasswordHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRetSettingHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCScriptCommandHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCUICommandHandler.cpp">
+      <Filter>Network\Handler\GC...\0. System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCEnterSceneHandler.cpp">
+      <Filter>Network\Handler\GC...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCLeaveSceneHandler.cpp">
+      <Filter>Network\Handler\GC...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNotifyChangeSceneHandler.cpp">
+      <Filter>Network\Handler\GC...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRetChangeSceneHandler.cpp">
+      <Filter>Network\Handler\GC...\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDelObjectHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewItemBoxHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewMonster_DeathHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewMonster_MoveHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewMonsterHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPet_DeathHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPet_MoveHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPetHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPlatformHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPlayer_DeathHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPlayer_MoveHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPlayerHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewPortalHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewSkillObjHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewSpecialHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMonsterRealMoveHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNewItemHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerRealMoveHandler.cpp">
+      <Filter>Network\Handler\GC...\2. Environment\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharAllTitlesHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharBaseAttribHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharBUFFHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharDirectImpactHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharDoActionHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharEquipmentHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharFirstLoginHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharImpactListUpdateHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharStopActionHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDieHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCLevelUpHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCModifySpeedHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCObjTeleportHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPrivateInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTargetListAndHitFlagsHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMonsterSpeakHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCOtherEquipHandler.cpp">
+      <Filter>Network\Handler\GC...\3. Character\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharIdleHandler.cpp">
+      <Filter>Network\Handler\GC...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharJumpHandler.cpp">
+      <Filter>Network\Handler\GC...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharMoveHandler.cpp">
+      <Filter>Network\Handler\GC...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharMoveResultHandler.cpp">
+      <Filter>Network\Handler\GC...\5. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCArriveHandler.cpp">
+      <Filter>Network\Handler\GC...\5. Move\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankItemInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBoxItemListHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDiscardEquipResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDiscardItemResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCItemInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCItemListHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCItemSynchHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNotifyEquipHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPackage_SwipItemHandle.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPackUpPacketHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPickResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRemoveGemResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSplitItemResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCUnEquipResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCUseEquipResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCUseGemResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCUseItemResultHandler.cpp">
+      <Filter>Network\Handler\GC...\7. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAddCanPickMissionItemHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCanPickMissionItemListHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailAbilityInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailAttribHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailBUFFHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailEquipListHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailHealsAndDamagesHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailImpactListUpdateHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailSkillListHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailXinFalListHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCLevelUpResultHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCManualAttrResultHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMyBagListHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNotifyGoodBadHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerCallOfHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerDieHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerReliveHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRemoveCanPickMissionItemHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCReqResetAttrResultHandler.cpp">
+      <Filter>Network\Handler\GC...\4. MySelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbandonAbilityHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilityActionHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilityExpHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilityLevelHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilityResultHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilitySuccHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharActionHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharModifyActionHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_CreateBulletHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_Gather_ModifyHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_GatherHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_Lead_ModifyHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_LeadHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_MissedHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCharSkill_SendHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCOperateResultHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPrescriptionHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAttackHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCErrorAttackHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCErrorSkillHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCOtherAttackHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCOtherSkillHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSkillHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSkillPrepareHandler.cpp">
+      <Filter>Network\Handler\GC...\6. Skill\__Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCoolDownUpdateHandler.cpp">
+      <Filter>Network\Handler\GC...\8. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAskTeamFollowHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNotifyTeamInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCReturnTeamFollowHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamAskApplyHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamAskInviteHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamFollowErrHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamFollowListHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamLeaderAskInviteHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamListHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamMemberInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCTeamResultHandler.cpp">
+      <Filter>Network\Handler\GC...\9. Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCChannelErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCChannelResultHandler.cpp">
+      <Filter>Network\Handler\GC...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCChatHandler.cpp">
+      <Filter>Network\Handler\GC...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSystemMsgHandle.cpp">
+      <Filter>Network\Handler\GC...\10. Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMailHandler.cpp">
+      <Filter>Network\Handler\GC...\11. Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCNotifyMailHandler.cpp">
+      <Filter>Network\Handler\GC...\11. Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMissionAddHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMissionListHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMissionModifyHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMissionRemoveHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMissionResultHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRetMissionDescHandler.cpp">
+      <Filter>Network\Handler\GC...\12. Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopBuyHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopMerchandiseListHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopRepairHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopSellHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopSoldListHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCShopUpdateMerchandiseListHandler.cpp">
+      <Filter>Network\Handler\GC...\13. Merchandise</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCAbilityTeacherInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\14. Menpai&amp;XInfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCJoinMenpaiHandler.cpp">
+      <Filter>Network\Handler\GC...\14. Menpai&amp;XInfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCMenpaiInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\14. Menpai&amp;XInfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStudyXinfaHandler.cpp">
+      <Filter>Network\Handler\GC...\14. Menpai&amp;XInfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCXinfaStudyInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\14. Menpai&amp;XInfa</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankAcquireListHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankAddItemHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankBeginHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankMoneyHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankRemoveItemHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBankSwapItemHandler.cpp">
+      <Filter>Network\Handler\GC...\15. Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeCancelHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeSynchLockHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeApplyIHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange\StepI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeEstablishIHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange\StepI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeSynchConfirmIIHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange\StepII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeSynchIIHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange\StepII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCExchangeSuccessIIIHandler.cpp">
+      <Filter>Network\Handler\GC...\16. Exchange\StepIII</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCDetailAttrib_PetHandler.cpp">
+      <Filter>Network\Handler\GC...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCManipulatePetRetHandler.cpp">
+      <Filter>Network\Handler\GC...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPetPlacardListHandler.cpp">
+      <Filter>Network\Handler\GC...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRemovePetHandler.cpp">
+      <Filter>Network\Handler\GC...\17. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCBBSMessagesHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallAddItemHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallApplyHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallBuyHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallCloseHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallEstablishHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallItemPriceHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallOpenHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCStallRemoveItemHandler.cpp">
+      <Filter>Network\Handler\GC...\18. Stall</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCGuildApplyHandler.cpp">
+      <Filter>Network\Handler\GC...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCGuildErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCGuildHandler.cpp">
+      <Filter>Network\Handler\GC...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCGuildReturnHandler.cpp">
+      <Filter>Network\Handler\GC...\19. Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCRelationHandler.cpp">
+      <Filter>Network\Handler\GC...\20. Relation</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSpecialObj_ActNowHandler.cpp">
+      <Filter>Network\Handler\GC...\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCSpecialObj_FadeOutHandler.cpp">
+      <Filter>Network\Handler\GC...\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopAcquireShopListHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopApplyHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopBuyShopHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopEstablishHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopMoneyHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopOnSaleHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopOpenStallHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopRecordListHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopSaleOutHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopStallStatusHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopTypeHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopUpdateFavoriteHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCPlayerShopUpdatePartnersHandler.cpp">
+      <Filter>Network\Handler\GC...\21. PlayerShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCityAttrHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCityErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GCCityNotifyHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GWCityApplyNewCityHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GWCityAskInitInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GWCityCloseHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GWCityCloseSuccessHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\GWCityOptHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityApplyNewCityHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityAttrHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityCloseHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityCloseSuccessHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityErrorHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\WGCityInitInfoHandler.cpp">
+      <Filter>Network\Handler\GC...\23. City</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetCharListHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetCharLoginHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetConnectHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetCreateCharHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetDeleteCharHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCRetLoginHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\LCStatusHandler.cpp">
+      <Filter>Network\Handler\LC...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLAskCharListHandler.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLAskCharLoginHandler.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLAskCreateCharHander.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLAskDeleteCharHandler.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLAskLoginHandler.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler\CLConnectHandler.cpp">
+      <Filter>Network\Handler\CL...</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeObject\GMFakeObjSystem.cpp">
+      <Filter>FakeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\GMEventSystem.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\GMSoundBuffer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\GMSoundSource.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\GMSoundSystem.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GameProcedure.cpp">
+      <Filter>Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_Login.cpp">
+      <Filter>Procedure\0. Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_CharSel.cpp">
+      <Filter>Procedure\1. Character Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\CharacterFaceMng.cpp">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\FaceModelMng.cpp">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_CharCreate.cpp">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\HairModelMng.cpp">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_Enter.cpp">
+      <Filter>Procedure\3. Enter</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_Main.cpp">
+      <Filter>Procedure\4. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure\GamePro_ChangeScene.cpp">
+      <Filter>Procedure\5. changer server</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\GMHelperSystem.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable\GMVariable.cpp">
+      <Filter>Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\WorldManager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Zone.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Path.h">
+      <Filter>World\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Region.h">
+      <Filter>World\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="World\BuildingCollisionMng.h">
+      <Filter>World\Building_Collision_Mng</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ActionSetMgr.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BulletDataMgr.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GMObjectLoadQueue.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj_Building.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj_Dynamic.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj_Map.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj_Phy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj_Static.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectCommand.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectCommandDef.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectDef.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\CharacterStruct.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Obj_Character.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Obj_PlayerMySelf.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Obj_PlayerNPC.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Obj_PlayerOther.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Ai\GMAI_Base.h">
+      <Filter>Object\Character\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Ai\GMAI_MySelf.h">
+      <Filter>Object\Character\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Ai\GMAICommandDef.h">
+      <Filter>Object\Character\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Surface\Obj_Bullet.h">
+      <Filter>Object\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Surface\Obj_Effect.h">
+      <Filter>Object\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Surface\Obj_SkillObj.h">
+      <Filter>Object\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Surface\Obj_Special.h">
+      <Filter>Object\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Surface\Obj_Surface.h">
+      <Filter>Object\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ProjTex\Obj_ProjTex.h">
+      <Filter>Object\ProjTex</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Obj_Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Obj_Item_Equip.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Obj_Item_Gem.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Obj_Item_Medicine.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Obj_Item_StoreMap.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TripperObj\GMTripperObj.h">
+      <Filter>Object\TripperObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TripperObj\GMTripperObj_ItemBox.h">
+      <Filter>Object\TripperObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TripperObj\GMTripperObj_Platform.h">
+      <Filter>Object\TripperObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TripperObj\GMTripperObj_Resource.h">
+      <Filter>Object\TripperObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TripperObj\GMTripperObj_Transport.h">
+      <Filter>Object\TripperObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GMInputSystem.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbc\GMDataBase.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor\CursorMng.h">
+      <Filter>Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\DataPoolCommandDef.h">
+      <Filter>DataPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\DetailAttrib_Base.h">
+      <Filter>DataPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\DetailAttrib_Player.h">
+      <Filter>DataPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMUIDataPool.h">
+      <Filter>DataPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\TeamOrGroup.h">
+      <Filter>DataPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDataPool.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_CharacterData.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_CharacterData.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Guild.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Mail.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Pet.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_PlayerShop.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Quest.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_RecordList.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Relation.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Skill.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool\GMDP_Struct_Title.h">
+      <Filter>DataPool\_new</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\GMScriptSystem.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_ChatMood.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_Item.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_LifeAbility.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_MouseCmd.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_PetSkill.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_Skill.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\GMActionSystem_XinFa.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMGameInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMGameInterface_Script.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMGameInterface_Script_Package.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Lua.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Script_Guild.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Script_PetInviteFriend.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Script_SystemSetup.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Script_Talk.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GMInterface_Script_Tooltip.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeObject\GMFakeObjSystem.h">
+      <Filter>FakeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\GMEventSystem.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TDEventDefine.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\GMSoundBuffer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\GMSoundSource.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\GMSoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GameProcedure.h">
+      <Filter>Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_Login.h">
+      <Filter>Procedure\0. Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\LoginDataStructDef.h">
+      <Filter>Procedure\0. Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_CharSel.h">
+      <Filter>Procedure\1. Character Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\CharacterFaceMng.h">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\FaceModelMng.h">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_CharCreate.h">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\HairModelMng.h">
+      <Filter>Procedure\2. Character Create</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_Enter.h">
+      <Filter>Procedure\3. Enter</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_Main.h">
+      <Filter>Procedure\4. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure\GamePro_ChangeScene.h">
+      <Filter>Procedure\5. changer server</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\GMHelperSystem.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable\GMVariable.h">
+      <Filter>Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\Attack.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\AutoRun.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Herbs.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Hover.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Identify.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Interact.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Mine.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Normal.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\PickUp.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Repair.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Speak.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\UnReachable.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
